@@ -1,5 +1,5 @@
 import {put, take, race, call, spawn} from 'redux-saga/effects';
-import {SubmissionError} from 'redux-form';
+import {SubmissionError} from 'redux-form/immutable';
 
 const identity = f => f;
 const FORM_SUBMIT = 'redux-form-submit-saga/FORM_SUBMIT';
